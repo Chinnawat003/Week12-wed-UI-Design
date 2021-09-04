@@ -1,8 +1,58 @@
-.carousel-head{
-    color: #8B0000;
+
+.container, .container-fluid{
+    font-family: 'Sarabun', sans-serif;
 }
- 
-.carousel-head2 {
-    color: rgb(2, 2, 2);
-    font-size: 30px;
+
+#carouselExampleCaptions{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.carousel-head{
+    color: #563d7c;
+    font-weight: bold;
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.main-heading{
+    color: #4c238a;
+    font-size: 26px;
+}
+
+.main-header{
+    color: #4c238a;
+    font-size: 40px;
+}
+
+.underline{
+    height: 4px;
+    width: 10rem;
+    background-color: #270979;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-c-light{
+    background-color: #ffffff;
+}
+
+.footer{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.footer a{
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: rgb(230, 0, 0);
+}
+.fb-root{
+    display: block;
+    margin: auto;
 }
