@@ -56,3 +56,9 @@
     display: block;
     margin: auto;
 }
+*{
+    font-family: 'Athiti', sans-serif;
+}
+.h1 {
+    font-size: 20px;
+}

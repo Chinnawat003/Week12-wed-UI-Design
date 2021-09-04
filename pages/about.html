@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@300;500&display=swap" rel="stylesheet">
     <title>Dev1-bootstrap</title>
 </head>
 
-<body>
- <!-- 1.Start NavBar -->
+<!-- 1.Start NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #563d7c;">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">นายชินวัตร</a>
+            <a class="navbar-brand" href="index.html">นายชินวัตร</a>
 <!-- Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
- <!-- End Button -->
+<!-- End Button -->
+
 <!-- Navbar Link -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -29,7 +31,7 @@
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/about.html">เกี่ยวกับ</a>
+                        <a class="nav-link" href="../pages/about.html">เกี่ยวกับเวิทายาลัยเทคนิคตราด</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/profile.html">ประวัติเรา</a>
@@ -58,173 +60,192 @@
             </div>
         </div>
     </nav>
-    <!-- End NavBar -->
-
-
-<!-- Navbar Link -->
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/about.html">เกี่ยวกับ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/profile.html">ประวัติเรา</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/gallery.html">ภาพความทรงจำ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/contact.html">ติดต่อเรา</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Link
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="https://trattc.ac.th/">วท.ตราด</a></li>
-                <li><a class="dropdown-item" href="https://www.vec.go.th/">อาชีวศึกษา</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="https://www.moe.go.th/">กระทรวง ศึกษาธิการ</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-</div>
-</nav>
 <!-- End NavBar -->
 
-    <!-- -------------------------------------------------------------------------- -->
-
-    <section class="section">
-        <div class="container-fluid">
-            <h3 class="main-header text-center">เกี่ยวกับเรา</h3>
-            <div class="underline mx-auto"></div>
+<!-- 2.Start Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
         </div>
-    </section>
-
-    <section class="section border-top" style="background-color: #ebe4f7;">
-        <div class="container-fluid3">
-            <div class="row m-3"> 
-                <div class="col-md-14 mb-3">
-                    <div class="card shadow p-3">
-                        <div class="card-body">
-                            <h3 class="main-heading">วิสัยทัศน์/พัทธกิจ/ยุทธศาสตร์</h3>
-                            วิสัยทัศน์ พันธกิจ ของวิทยาลัยเทคนิคตราด
-                            <div class="underline"></div>
-
-                            <h4>วิสัยทัศน์</h4>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp; มุ่งผลิตและส่งเสริมคุณภาพนักเรียน นักศึกษา ให้ความรู้ ความชำนาญ
-                                ทางวิชาการและวิชาชีพเพื่อสนองตอบความต้องการของชุมชนและสถานประกอบการ
-                            </p>
-
-                            <h4>พันธกิจ</h4>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;เป็นสถานศึกษาที่มุ่งเน้นผลิตและพัฒนากำลังคนในระดับกึ่งฝีมือ
-                                ฝีมือเทคนิคและระดับเทคโนโลยี ให้ความรู้ ความสามารถ มีความชำนาญทางวิชาชีพได้มาตรฐาน
-                                และมีคุณภาพ
-                                ซึ่งมีความพร้อมที่จะให้บริการวิชาชีพแก่ชุมชนและท้องถิ่นเพื่อพัฒนาเครือข่ายการเรียนรู้ทางวิชาชีพให้กว้างขวาง
-                                และหลากหลายรูปแบบตลอดจนสืบสาน อนุรักษณ์คุณธรรม วัฒนธรรม
-                                ประเพณี ภูมิปัญญาท้องถิ่นของไทยให้ยั่งยืนตลอดไป
-                            </p>
-                            <hr>
-                            <h4>ปรัชญา</h4>
-                            <p>"ล้ำเลิศวิชาการ ชำนาญงานฝีมือ ยึดถือคุณธรรม"</p>
-
-                            <h4>เอกลักษณ์วิทยาลัยเทคนิคตราด</h4>
-                            <p>"ทักษะเลิศล้ำ นำวิชาการ บริการชุมชน"</p>
-
-                            <h4>อัตลักษณ์วิทยาลัยเทคนิคตราด</h4>
-                            <p>"เก่ง ดี มีจิตอาสา"</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3 text-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="main-heading">แผนที่วิทยาลัยเทคนิคตราด เขต 1 </h3>
-                            <div class="underline mx-auto"></div>
-                            <hr>
-                            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.9729622629216!2d102.52020301526636!3d12.250108933611303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310443fa46595d57%3A0xb62aa26e87239503!2z4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LmA4LiX4LiE4LiZ4Li04LiE4LiV4Lij4Liy4LiU!5e0!3m2!1sth!2sth!4v1630471193104!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:100%;}.gmap_iframe {height:400px!important;}</style></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3 text-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="main-heading">แผนที่วิทยาลัยเทคนิคตราด เขต 2</h3>
-                            <div class="underline mx-auto"></div>
-                            <hr>
-                            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.2844703832893!2d102.48294541526663!3d12.296619732654781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31044302f26a0c5b%3A0xcac807192dcf4a53!2z4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LmA4LiX4LiE4LiZ4Li04LiE4LiV4Lij4Liy4LiUIOC5gOC4guC4lTI!5e0!3m2!1sth!2sth!4v1630470945280!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:100%;}.gmap_iframe {height:400px!important;}</style></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3 text-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="main-heading">รูป</h3>
-                            <div class="underline mx-auto"></div>
-                            <hr>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                      <img src="../images/history.jpg" alt="history" width="500" height="300">
-              </div>   
-             </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- -------------------------------------------------------------------------- -->
-<!-- 6.Start Section Footer -->
-<section class="section footer bg-dark text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Company Information</h3>
-                <hr />
-                <ul type="list-unstyled">
-                    <li><small>วิทยาลัยเทคนิคตราด</small></li>
-                    <li><small>480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด</small></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4 ">
-                <h3>Quick Link</h3>
-                <hr />
-                <ul type="list-unstyled">
-                    <li><div><a href="../index.html"><small> Home </small></a></div></li>
-                    <li><div><a href="../pages/about.html"><small> About </small></a></div></li>
-                    <li><div><a href="../pages/profile.html"><small> Profile </small></a></div></li>
-                    <li><div><a href="../pages/contact.html"><small> Contact </small></a></div></li>
-                    <li><div><a href="../pages/gallery.html"><small> Gallery </small></a></div></li>
-                    <li><div><a href="../pages/service.html"><small> Service </small></a></div></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4">
-                <h3>Contact Information</h3>
-                <hr />
-                <ul type="list-unstyled">
-                    <li><div><p class="text-white mb-1"><small> 480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด 23000 </small></p></div></li>
-                    <li><div><p class="text-white mb-1"><small> trat.ac.th@gmail.com </small></p></div></li>
-                    <li><div><p class="text-white mb-1"><small> 039-518-105 </small></p></div></li>
-                </ul>
-            </div>
-
-        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="../images/Trta2.png"  class="d-block w-50 mx-auto" alt="cat breed"  >
+         </div>
     </div>
-</section>
-<!-- End Section Footer -->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-</body>
+<!-- End Slider -->
 
-</html>
+<!-- 3.Start Section Main -->
+
+<section class="section border-top" style="background-color: #f2f2f2;">
+    <div class="container-fluid3">
+        <div class="row m-3"> 
+            <div class="col-md-9 mb-3 mx-auto">
+                <div class="card shadow p-3">
+                    <div class="card-body">
+                        <h3 class="display-3">วิสัยทัศน์/พัทธกิจ/ยุทธศาสตร์</h3>
+                        <h3>วิสัยทัศน์ พันธกิจ ของวิทยาลัยเทคนิคตราด</h3>
+                        <div class="underline"></div>
+
+                        <h3>วิสัยทัศน์</h3>
+                        <h4>
+                            &nbsp;&nbsp;&nbsp;&nbsp; มุ่งผลิตและส่งเสริมคุณภาพนักเรียน นักศึกษา ให้ความรู้ ความชำนาญ
+                            ทางวิชาการและวิชาชีพเพื่อสนองตอบความต้องการของชุมชนและสถานประกอบการ
+                        </h4>
+
+                        <h3>พันธกิจ</h3>
+                        <h4>
+                            &nbsp;&nbsp;&nbsp;&nbsp;เป็นสถานศึกษาที่มุ่งเน้นผลิตและพัฒนากำลังคนในระดับกึ่งฝีมือ
+                            ฝีมือเทคนิคและระดับเทคโนโลยี ให้ความรู้ ความสามารถ มีความชำนาญทางวิชาชีพได้มาตรฐาน
+                            และมีคุณภาพ
+                            ซึ่งมีความพร้อมที่จะให้บริการวิชาชีพแก่ชุมชนและท้องถิ่นเพื่อพัฒนาเครือข่ายการเรียนรู้ทางวิชาชีพให้กว้างขวาง
+                            และหลากหลายรูปแบบตลอดจนสืบสาน อนุรักษณ์คุณธรรม วัฒนธรรม
+                            ประเพณี ภูมิปัญญาท้องถิ่นของไทยให้ยั่งยืนตลอดไป
+                        </h4>
+                        <hr>
+                        <h3>ปรัชญา</h3>
+                        <h4>"ล้ำเลิศวิชาการ ชำนาญงานฝีมือ ยึดถือคุณธรรม"</h4>
+
+                        <h3>เอกลักษณ์วิทยาลัยเทคนิคตราด</h3>
+                        <h4>"ทักษะเลิศล้ำ นำวิชาการ บริการชุมชน"</h4>
+
+                        <h3>อัตลักษณ์วิทยาลัยเทคนิคตราด</h3>
+                        <h4>"เก่ง ดี มีจิตอาสา"</h4>
+                    </div>
+                </div>
+            </div>
+
+<!-- End Section Main -->
+
+<!-- 4.Start Section Vision, Mission and Value -->
+    <section class="section bg-c-light border-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <h3 class="display-6">รูปประกอบ</h3>
+                    <div class="underline mx-auto"></div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="../images/Trta1.jpg"><br>
+                </div>
+
+                <div class="col-md-4 text-center">
+                        <img src="../images/history.jpg"><br>
+                 </div>
+ 
+                <div class="col-md-4 text-center">
+                    <img src="../images/Trta3.jpg">
+                </div>
+         </div>
+     </div>    
+ </div>
+</section>
+<!-- End Section Vision, Mission and Value -->
+
+<!-- 5.Start Section Service -->
+    <section class="section border-top" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <h3 class="main-heading">บริการชุมชน</h3>
+                    <div class="underline mx-auto"></div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="../images/service1.jpg" alt="service1" class="src w-100 border-bottom" />
+                        <div class="card-body">
+                            <h4>Web Hosting</h4>
+                            <div class="underline"></div>
+                            <p>บริการ Web Hosting ด้วยทีมงานมืออาชีพพร้อมให้บริการตลอด 24 ชั่วโมง ใน Data Center ระดับ Tier 4 
+                                พร้อมด้วยมาตรฐาน ISO20000, ISO27001 และ ISO9001 ถ้าคุณกำลังมองหาเว็บโฮสติ้งดีๆ อยู่ ก็ที่นี่แหละ 
+                                รับประกันความพึงพอใจยินดีคืนเงินเต็มจำนวนโดยไม่ต้องแจ้งเหตุผล</p>
+                            <a href="pages/service.html" class="btn shadow mb-3 btn-danger" style="background-color: #ff0000;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="../images/service2.jpg" alt="service1" class="src w-100 border-bottom" />
+                        <div class="card-body">
+                            <h4>Cloud Server</h4>
+                            <div class="underline"></div>
+                            <p>บริการ Cloud Server สำหรับ Web หรือ Application ที่ต้องการประสิทธิภาพ และความเสถียรภาพสูงสุด 
+                                อิสระในการใช้งาน สามารถเลือกและติดตั้ง OS ได้เอง รองรับการใช้งานที่หลากหลายไม่ว่าจะเป็น 
+                                Web Server, Mail Server, App Server, Database Server</p>
+                            <a href="pages/service.html" class="btn shadow mb-3 btn-danger" style="background-color: #ff0000;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="../images/service3.jpg" alt="service1" class="src w-100 border-bottom" />
+                        <div class="card-body">
+                            <h4>Domain Registration</h4>
+                            <div class="underline"></div>
+                            <p>เราให้คุณจัดการทุกอย่างได้เองผ่าน Control Panel มีระบบป้องกันการจารกรรมโดเมน พร้อมบริการให้คุณตลอด 24 ชม. 
+                                ไม่มีวันหยุด โดเมนที่จดทะเบียนกับเราเป็นของคุณ 100% ไม่มีการถือครองแทนโดยผู้ให้บริการแบบที่อื่น</p>
+                            <a href="pages/service.html" class="btn shadow mb-3 btn-danger" style="background-color: #ff0000;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!-- End Section Service -->
+
+
+
+
+
+
+<!-- 6.Start Section Footer -->
+    <section class="section footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Company Information</h3>
+                    <hr />
+                    <ul type="list-unstyled">
+                        <li><small>วิทยาลัยเทคนิคตราด</small></li>
+                        <li><small>480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด</small></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 ">
+                    <h3>Quick Link</h3>
+                    <hr />
+                    <ul type="list-unstyled">
+                        <li><div><a href="../index.html"><small> Home </small></a></div></li>
+                        <li><div><a href="../pages/about.html"><small> About </small></a></div></li>
+                        <li><div><a href="../pages/profile.html"><small> Profile </small></a></div></li>
+                        <li><div><a href="../pages/contact.html"><small> Contact </small></a></div></li>
+                        <li><div><a href="../pages/gallery.html"><small> Gallery </small></a></div></li>
+                        <li><div><a href="../pages/service.html"><small> Service </small></a></div></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4">
+                    <h3>Contact Information</h3>
+                    <hr />
+                    <ul type="list-unstyled">
+                        <li><div><p class="text-white mb-1"><small> 480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด 23000 </small></p></div></li>
+                        <li><div><p class="text-white mb-1"><small> trat.ac.th@gmail.com </small></p></div></li>
+                        <li><div><p class="text-white mb-1"><small> 039-518-105 </small></p></div></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- End Section Footer -->
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+    
+    </html>
